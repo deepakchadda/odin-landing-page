@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+}
+
+.emptyHeader {
+  height: 60px;
+}
+
+.header-item {
+  margin-left: auto;
+}
+
+a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header-content {
+  background-color: #1f2937;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.mainPicture {
+  width: 400px;
+  height: 200px;
+}
+
+.logo {
+  height: 60px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.header-text-top {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.header-text-bottom {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.book-appointment {
+  background-color: #3b82f6;
+  color: white;
+  height: 40px;
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.massage-types {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.massage-type-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.massage-type-info-item {
+  height: 200px;
+  width: 260px;
+  border: 2px #3b82f6 solid;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.massage-type-img {
+  height: 190px;
+  width: 250px;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.massge-info {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.quote {
+  margin-top: 100px;
+  height: 300px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote-description {
+  font-size: 32px;
+}
+
+.quote-written-by {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #1f2937;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.newsletter-item {
+  height: 200px;
+  background-color: #3b82f6;
+  color: white;
+}
+
+.newsletter-item1 {
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter-item2 {
+  border-radius: 0 5px 5px 0;
+}
+
+.newsletter-item1-header {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.newsletter-item1-detail {
+  font-size: 20px;
+}
+
+.newsletter-left-item {
+  width: 400px;
+  padding: 50px;
+}
+
+.newsletter-item2 {
+  width: 200px;
+  align-self: center;
+}
+
+.signup-button {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin-top: 100px;
+  border: 1px solid white;
+}
